@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function WelcomeBlock() {
     return (
         <>
-            <div className="relative flex justify-center w-full">
+            <div id="welcome-image" className="relative flex justify-center w-full">
             <Image
                     className="w-full h-173 object-cover"
                     src="/background.webp"
@@ -13,7 +14,7 @@ export default function WelcomeBlock() {
             />
             <div className="absolute top-1/4 grid justify-items-center w-full content-between h-1/2 md:h-2/3">
                 <h1 className="text-white text-6xl md:text-8xl max-w-250 text-center">Frontier AI. In Your Hands.</h1>
-                <p className="text-white text-xl md:text-2xl text-center mx-4">Amelia&apos;s fake version :)</p>
+                <p className="text-white text-xl md:text-2xl text-center mx-4">Fake version by Amelia Song :)</p>
                 <div className="w-full px-5 flex justify-center">
                 <div className="bg-mistral-background-50 w-full max-w-135 h-12.5 flex justify-between items-center">
                     <input type="text" placeholder="Talk to le Chat" className="text-sm p-6 w-full outline-0"/>
@@ -29,7 +30,7 @@ export default function WelcomeBlock() {
                 </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 w-full max-w-125 h-12.5 px-5 justify-between gap-8">
-                <div className="group">
+                <Link target="_blank" href={`https://drive.google.com/file/d/1QDa9dW90jOzQoJtCYYPYClHTI2V2oDxi/view?usp=sharing`}  className="group">
                     <div className="flex justify-between">
                     <p className="text-white py-2">Enterprise deployments</p>
                     <svg className="w-2.5 group-hover:text-mistral-orange-500 transition duration-50" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -41,8 +42,8 @@ export default function WelcomeBlock() {
                     </svg>
                     </div>
                     <hr className="text-white"/>
-                </div>
-                <div className="group">
+                </Link>
+                <Link target="_blank" href={`https://drive.google.com/file/d/1QDa9dW90jOzQoJtCYYPYClHTI2V2oDxi/view?usp=sharing`}  className="group">
                     <div className="flex justify-between">
                     <p className="text-white py-2">APIs on la Plateforme</p>
                     <svg className="w-2.5 group-hover:text-mistral-orange-500 transition duration-50" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -54,7 +55,7 @@ export default function WelcomeBlock() {
                     </svg>
                     </div>
                     <hr className="text-white"/>
-                </div>
+                </Link>
                 </div>
             </div>
             </div>

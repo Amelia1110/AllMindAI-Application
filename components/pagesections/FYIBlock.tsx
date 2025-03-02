@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function FYIBlock() {
     return (
-        <div className="grid md:grid-cols-2 h-fit gap-16 md:gap-25 mx-4 md:ml-0 md:mr-6 relative">
+        <div className="grid md:grid-cols-2 h-fit gap-16 md:gap-25 mx-5 md:ml-0 md:mr-6 relative">
           <div className="relative">
             <Image
                 className="md:absolute md:top-0 md:left-0 md:w-fit h-85 md:h-full object-cover"

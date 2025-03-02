@@ -1,7 +1,7 @@
 interface InfoBlockProps {
     title: string;
     text: string;
-  }
+}
 
 export default function InfoBlock({title, text}: InfoBlockProps) {
     return (

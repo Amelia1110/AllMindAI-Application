@@ -54,30 +54,30 @@ export default function MistralHeader() {
                     <div className="grid grid-cols-2 md:col-span-3 md:grid-cols-4 gap-y-4">
                     <div className="grid content-start gap-1">
                         <p className="text-sm text-mistral-accent">Why Mistral</p>
-                        <Link className="text-sm" href={`/empty-page`}>About us</Link>
-                        <Link className="text-sm" href={`/empty-page`}>Our customers</Link>
-                        <Link className="text-sm" href={`/empty-page`}>Careers</Link>
-                        <Link className="text-sm" href={`/empty-page`}>Contact us</Link>
+                        <Link className="text-sm" target="_blank" href={`https://drive.google.com/file/d/1QDa9dW90jOzQoJtCYYPYClHTI2V2oDxi/view?usp=sharing`} >Careers</Link>
+                        <Link className="text-sm" target="_blank" href={`https://drive.google.com/file/d/1QDa9dW90jOzQoJtCYYPYClHTI2V2oDxi/view?usp=sharing`}>Our customers</Link>
+                        <Link className="text-sm" target="_blank" href={`https://drive.google.com/file/d/1QDa9dW90jOzQoJtCYYPYClHTI2V2oDxi/view?usp=sharing`} >About us</Link>
+                        <Link className="text-sm" target="_blank" href={`https://drive.google.com/file/d/1QDa9dW90jOzQoJtCYYPYClHTI2V2oDxi/view?usp=sharing`} >Contact us</Link>
                     </div>
                     <div className="grid content-start gap-1">
                         <p className="text-sm text-mistral-accent">Explore</p>
-                        <Link className="text-sm" href={`/empty-page`}>AI solutions</Link>
-                        <Link className="text-sm" href={`/empty-page`}>Partners</Link>
-                        <Link className="text-sm" href={`/empty-page`}>Research</Link>
-                        <Link className="text-sm" href={`/empty-page`}>Documentation</Link>
+                        <Link className="text-sm" target="_blank" href={`https://drive.google.com/file/d/1QDa9dW90jOzQoJtCYYPYClHTI2V2oDxi/view?usp=sharing`} >AI solutions</Link>
+                        <Link className="text-sm" target="_blank" href={`https://drive.google.com/file/d/1QDa9dW90jOzQoJtCYYPYClHTI2V2oDxi/view?usp=sharing`} >Partners</Link>
+                        <Link className="text-sm" target="_blank" href={`https://drive.google.com/file/d/1QDa9dW90jOzQoJtCYYPYClHTI2V2oDxi/view?usp=sharing`} >Research</Link>
+                        <Link className="text-sm" target="_blank" href={`https://drive.google.com/file/d/1QDa9dW90jOzQoJtCYYPYClHTI2V2oDxi/view?usp=sharing`}>Documentation</Link>
                     </div>
                     <div className="grid content-start gap-1">
                         <p className="text-sm text-mistral-accent">Build</p>
-                        <Link className="text-sm" href={`/empty-page`}>La Plateforme</Link>
-                        <Link className="text-sm" href={`/empty-page`}>Le Chat</Link>
-                        <Link className="text-sm" href={`/empty-page`}>Try the API</Link>
+                        <Link className="text-sm" target="_blank" href={`https://drive.google.com/file/d/1QDa9dW90jOzQoJtCYYPYClHTI2V2oDxi/view?usp=sharing`} >Le Chat</Link>
+                        <Link className="text-sm" target="_blank" href={`https://drive.google.com/file/d/1QDa9dW90jOzQoJtCYYPYClHTI2V2oDxi/view?usp=sharing`} >La Plateforme</Link>
+                        <Link className="text-sm" target="_blank" href={`https://drive.google.com/file/d/1QDa9dW90jOzQoJtCYYPYClHTI2V2oDxi/view?usp=sharing`}>Try the API</Link>
                     </div>
                     <div className="grid content-start gap-1">
                         <p className="text-sm text-mistral-accent">Legal</p>
-                        <Link className="text-sm" href={`/empty-page`}>Terms of service</Link>
-                        <Link className="text-sm" href={`/empty-page`}>Privacy policy</Link>
-                        <Link className="text-sm" href={`/empty-page`}>Data processing agreement</Link>
-                        <Link className="text-sm" href={`/empty-page`}>Legal notice</Link>
+                        <Link className="text-sm" target="_blank" href={`https://drive.google.com/file/d/1QDa9dW90jOzQoJtCYYPYClHTI2V2oDxi/view?usp=sharing`} >Terms of service</Link>
+                        <Link className="text-sm" target="_blank" href={`https://drive.google.com/file/d/1QDa9dW90jOzQoJtCYYPYClHTI2V2oDxi/view?usp=sharing`} >Privacy policy</Link>
+                        <Link className="text-sm" target="_blank" href={`https://drive.google.com/file/d/1QDa9dW90jOzQoJtCYYPYClHTI2V2oDxi/view?usp=sharing`} >Data processing agreement</Link>
+                        <Link className="text-sm" target="_blank" href={`https://drive.google.com/file/d/1QDa9dW90jOzQoJtCYYPYClHTI2V2oDxi/view?usp=sharing`} >Legal notice</Link>
                     </div>
                     </div>
                 </div>

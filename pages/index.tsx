@@ -7,6 +7,8 @@ import WelcomeBlock from "@/components/pagesections/WelcomeBlock";
 import DownloadBlock from "@/components/pagesections/DownloadBlock";
 import FYIBlock from "@/components/pagesections/FYIBlock";
 import MistralSlideShow from "@/components/pagesections/MistralSlideShow";
+import DemosBlock from "@/components/pagesections/DemosBlock";
+import OutroBlock from "@/components/pagesections/OutroBlock";
 
 export default function Home() {
   return (
@@ -34,6 +36,11 @@ export default function Home() {
         {/* Second Slideshow*/}
         <MistralSlideShow/>
 
+        {/* Demo Images */}
+        <DemosBlock/>
+
+        {/* Outro */}
+        <OutroBlock/>
       </main>
 
       {/* Footer */}

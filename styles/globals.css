@@ -55,11 +55,13 @@ body {
 
   --color-mistral-gray: #ccbf99;
   --color-mistral-div: #e7dca0;
+  --color-mistral-black: #1d1b27;
 }
 
 :root {
   --background: #fffaea;
   --foreground: #1d1b27;
+  --grid-color: #fff0c3;
 }
 
 ::selection {
@@ -83,4 +85,35 @@ body {
   background-size: var(--grid-size-x,50.12px) var(--grid-size-y,50.14px);
   width: 100%;
   height: 100%
+}
+
+.clear {
+  background-color: transparent;
+}
+
+.blurry {
+  backdrop-filter: blur(15px);
+  color: white;
+}
+
+.default {
+  background-color: var(--background);
+}
+
+.blurryback {
+  background-color: rgba(255, 255, 255, .3);
+  color: white;
+}
+
+.defaultback {
+  background-color: #fef4d6;
+  color: var(--foreground);
+}
+
+.blurryicon {
+  color: white;
+}
+
+.defaulticon {
+  color: #ff8201;
 }
