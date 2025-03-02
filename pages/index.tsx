@@ -195,6 +195,17 @@ export default function Home() {
         <div className="w-full my-22">
           <CompaniesSlideShow/>
         </div>
+
+        {/* FYI Section */}
+        <div>
+          <div>
+
+          </div>
+          <div>
+            
+          </div>
+        </div>
+
       </main>
 
       {/* Footer */}
