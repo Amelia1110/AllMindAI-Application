@@ -24,10 +24,10 @@ export default function MistralHeader() {
             {/* Desktop Header */}
             <header className="hidden items-center p-6 lg:block h-30 bg-mistral-background-100 w-full fixed top-0 z-100">
                 <div className="h-full flex self-center justify-between items-center">
-                <Link target="_blank" className="" href={`/`}>
+                <Link target="_blank"  href={`/`}>
                     <Image
-                    src="/mistral-beige.svg"
-                    alt="Mistral AI beige icon"
+                    src="/black-logo.svg"
+                    alt="Mistral AI black icon"
                     width={41}
                     height={29}
                     />

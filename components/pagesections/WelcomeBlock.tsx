@@ -21,7 +21,7 @@ export default function WelcomeBlock() {
                     <Image
                         className="rotate-90"
                         src="/uparrow.svg"
-                        alt="Mistral AI black icon"
+                        alt="arrow"
                         width={40}
                         height={40}
                     />

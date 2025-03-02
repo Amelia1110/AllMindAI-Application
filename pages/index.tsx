@@ -1,11 +1,12 @@
 import Head from "next/head";
 
-import CompaniesSlideShow from "@/components/CompaniesSlideShow";
+import CompaniesSlideShow from "@/components/pagesections/CompaniesSlideShow";
 import MistralHeader from "@/components/pagesections/MistralHeader";
 import MistralFooter from "@/components/pagesections/MistralFooter";
 import WelcomeBlock from "@/components/pagesections/WelcomeBlock";
 import DownloadBlock from "@/components/pagesections/DownloadBlock";
 import FYIBlock from "@/components/pagesections/FYIBlock";
+import MistralSlideShow from "@/components/pagesections/MistralSlideShow";
 
 export default function Home() {
   return (
@@ -29,6 +30,9 @@ export default function Home() {
 
         {/* FYI Section */}
         <FYIBlock/>
+
+        {/* Second Slideshow*/}
+        <MistralSlideShow/>
 
       </main>
 

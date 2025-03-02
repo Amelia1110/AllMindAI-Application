@@ -54,10 +54,11 @@ body {
   --color-mistral-text: #1d1b27;
 
   --color-mistral-gray: #ccbf99;
+  --color-mistral-div: #e7dca0;
 }
 
 :root {
-  --background: #fefbea;
+  --background: #fffaea;
   --foreground: #1d1b27;
 }
 
